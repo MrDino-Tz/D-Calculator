@@ -60,8 +60,8 @@
       <th>Mobile View</th>
     </tr>
     <tr>
-      <td><img src="assets/desktop.png" alt="Desktop view"></td>
-      <td><img src="assets/mobile.png" alt="Mobile view"></td>
+      <td><img src="img/Screenshot.png" alt="Desktop view"></td>
+      <td><img src="img/logo.png" alt="Mobile view"></td>
     </tr>
   </table>
 
