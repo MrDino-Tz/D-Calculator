@@ -6,7 +6,7 @@
 </head>
 <body>
 
-  <h1>🧮 DTC-Calculator™</h1>
+  <h1>🧮 D-Calculator™</h1>
 
   <p>
     A simple yet elegant web-based calculator built as a personal learning project using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.
