@@ -2,46 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>DTC-Calculator™ - README</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      padding: 20px;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    h1, h2, h3 {
-      color: #2c3e50;
-    }
-    code {
-      background: #eee;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-family: monospace;
-    }
-    pre {
-      background: #272822;
-      color: #f8f8f2;
-      padding: 10px;
-      border-radius: 5px;
-      overflow-x: auto;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 20px 0;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 10px;
-      text-align: center;
-    }
-  </style>
+  
 </head>
 <body>
 
@@ -53,7 +14,7 @@
   </p>
 
   <h2>📸 Screenshots</h2>
-  <p>Put your screenshots in a folder like <code>/assets/</code> and update these paths:</p>
+
   <table>
     <tr>
       <th>Desktop View</th>
@@ -74,12 +35,6 @@
     <li>✅ Press animations on button click</li>
   </ul>
 
-  <h2>🧠 How It Works</h2>
-  <p>The calculator listens for button clicks and uses JavaScript to update the display and evaluate expressions.</p>
-  <pre><code>if(btnValue  === "=" && output !== ""){
-    output = eval(output.replace("%", "/100")); 
-}</code></pre>
-
   <h2>🖌️ UI & Animations</h2>
   <p><strong>Layout:</strong> The calculator UI is organized using CSS Grid and styled with box shadows and rounded corners.</p>
 
@@ -89,13 +44,6 @@
     <li><strong>Hover Effects:</strong> Operator buttons have color changes</li>
   </ul>
 
-  <p>Include an animation preview GIF here:</p>
-  <p><img src="assets/calc-animation.gif" alt="Calculator Animation"></p>
-
-  <pre><code>button:active {
-    transform: translateY(2px);
-}</code></pre>
-
   <h2>📁 Project Structure</h2>
   <pre><code>📁 DTC-Calculator
 ├── index.html        # Markup layout
@@ -104,12 +52,31 @@
 └── assets/           # (Optional) Folder for images and GIFs
 </code></pre>
 
-  <h2>🚀 Getting Started</h2>
-  <ol>
-    <li>Download or clone this repository</li>
-    <li>Open <code>index.html</code> in your browser</li>
-    <li>Start calculating!</li>
-  </ol>
+ <h2>🚀 Getting Started</h2>
+
+<h3>📦 Option 1: Download as ZIP</h3>
+<ol>
+  <li>Click the green <strong>"Code"</strong> button at the top of the repository.</li>
+  <li>Select <strong>"Download ZIP"</strong>.</li>
+  <li>Extract the ZIP file on your computer.</li>
+  <li>Open <code>index.html</code> in your browser to run the calculator.</li>
+</ol>
+
+<h3>🔁 Option 2: Clone via Git (for Git users)</h3>
+<ol>
+  <li>Make sure you have <a href="https://git-scm.com/downloads" target="_blank">Git installed</a>.</li>
+  <li>Open a terminal or command prompt.</li>
+  <li>Run the following command (replace the URL with your repo):</li>
+</ol>
+<pre><code>git clone https://github.com/MrDino-Tz/dtc-calculator.git</code></pre>
+<ol start="4">
+  <li>Navigate into the project folder:</li>
+</ol>
+<pre><code>cd dtc-calculator</code></pre>
+<ol start="5">
+  <li>Open <code>index.html</code> in your browser.</li>
+</ol>
+
 
   <h2>🛠️ Tech Stack</h2>
   <ul>
@@ -132,23 +99,6 @@
 </html>
 
 
-
-
-<h1 align="center">Hi 👋, I'm MrDino</h1>
-<h3 align="center">A passionate Software from Tanzania</h3>
-
-- 🌱 I’m currently learning **Spring Boot**
-
-- 💬 Ask me about **Android Studio,Spring Boot**
-
-- 📫 How to reach me **mrdinotz@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> </p>
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=mrdino-tz&show_icons=true&locale=en&layout=compact" alt="mrdino-tz" /></p>
 
